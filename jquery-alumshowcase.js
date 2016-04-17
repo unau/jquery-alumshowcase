@@ -1,6 +1,5 @@
 (function (factory) {
   if (typeof module === 'object' && typeof module.exports === 'object') {
-    console.log(require('jquery'));
     module.exports = factory(require('jquery'));
   } else {
     factory(jQuery);
